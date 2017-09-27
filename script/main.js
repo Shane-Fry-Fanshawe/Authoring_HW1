@@ -47,8 +47,13 @@ objectIndex.images.forEach(function(element, index){
       });
 
       //initialize the app
-      theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
-      theSeasonText.firstChild.nodeValue = dynamicContent['spring'].text;
-      theHeader.classList.add('spring');
+      //theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
+      //theSeasonText.firstChild.nodeValue = dynamicContent['spring'].text;
+      //theHeader.classList.add('spring');
+
+document.querySelector('#spring').click();
+
+changeElements.call(document.querySelector('#spring'));
+
 
 })();
